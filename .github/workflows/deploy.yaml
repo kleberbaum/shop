@@ -13,5 +13,5 @@ on: push
 # https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobs
 jobs:
   jaen-deploy:
-    uses: "schett-net/ami/.github/workflows/jaen-deploy.yaml@main"
+    uses: schett-net/ami/.github/workflows/jaen-deploy.yaml@main
     secrets: inherit
